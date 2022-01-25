@@ -1,2 +1,2 @@
 # vemco_tools
-tools to consolidate and submit VEMCO data
+View the wiki for steps currently being used to submit VEMCO data from a receiver attached to a glider to the Mid-Atlantic Acoustic Telemetry Observation System (MATOS). This has only been used for the VEMCO RXLive sensor on board RU34; other models may potentially look very different. RXLive is a new sensor not currently compatible with VUE software from VEMCO and required a workaround to provide MATOS with a format they could use - even if this method does work for other models, MATOS may require output from VUE instead for those models that are compatible.
