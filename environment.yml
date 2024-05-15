@@ -1,0 +1,9 @@
+name: vemco_tools
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - erddapy=2.2.0
+  - numpy=1.26.4
+  - pandas=2.2.2
+  - requests=2.31.0
