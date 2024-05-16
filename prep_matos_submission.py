@@ -80,6 +80,7 @@ def main(args):
             if 'pilot' in roles[i].lower():
                 pilots = np.append(pilots, contributors[i])
         deployment_info['DEPLOYED_BY'] = ', '.join(pilots)
+        glider_traj = glider_traj.drop(columns='time')
 
     for i in deployment_info.keys():
         if not deployment_info[i]:
