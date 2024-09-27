@@ -131,7 +131,7 @@ def main(args):
                 rxlive = False
             else:
                 try:
-                    vemco=pd.read_csv(detection_file,header=None)
+                    vemco=pd.read_csv(detection_file, header=None, encoding='iso-8859-1')
                 except Exception as error:
                     rxlive = False
                     print(f'Error reading {detection_file} printed below. If UnicodeDecodeError, unable to decode: open file, find bad character position using :goto POSITION_NUMBER, delete line, and rerun. Continuing processing without generation of detection file.\n\n')
